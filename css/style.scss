@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    flex-flow: column;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: cadetblue;
+    #curve_chart {
+        rect {
+            // fill: transparent;
+            fill: rgba($color: #fff, $alpha: 0.25);
+        }
+    }
+    p {
+        margin-top: 2%;
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: inherit;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: cadetblue;
+}
+.container #curve_chart rect {
+  fill: rgba(255, 255, 255, 0.25);
+}
+.container p {
+  margin-top: 2%;
+}
+.container p a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: inherit;
+}/*# sourceMappingURL=style.css.map */
